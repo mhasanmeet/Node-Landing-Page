@@ -1,32 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+<!-- html head -->
+<%- include('../partials/html-header.ejs')%>
     
     <main class="main">
         <div class="container">
 
-            <nav class="nav">
-                <div class="brand">
-                    <h1>CodegNet</h1>
-                </div>
+            <!-- nav Content -->
+            <%- include('../partials/navbar.ejs')%>
 
-                <div class="navItems">
-                    <ul>
-                        <li><a href="/" class="home"></a></li>
-                        <li><a href="/about" class="about"></a></li>
-                        <li><a href="/contact" class="contact"></a></li>
-                    </ul>
+            <div class="header">
+                <p>We developer high tech software development. Experienced in 2 decades in IT industry, we can simply
+                    guide and help achieve your dream project.
+                </p>
+
+                <div class="headerBottom">
+                    <h1>WORK DIRECTLY WITH TOP <br> IT PROFESSIONAL </h1>
+                    <div class="cta">
+                        <img src="/images/arrow.png" alt="arrow">
+                        <p>Contact Us</p>
+                    </div>
                 </div>
-            </nav>
+            </div>
         </div>
     </main>
 
-</body>
-</html>
+<!-- footer Content -->
+<%- include('../partials/html-footer.ejs')%>

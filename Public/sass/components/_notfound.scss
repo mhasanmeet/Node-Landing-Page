@@ -1,0 +1,15 @@
+.main{
+    .container{
+        margin: 2rem auto;
+
+        .notfound{
+            margin-top: 10rem;
+            text-align: center;
+            font-size: 8rem;
+
+            h1{
+                color: var(--color-teal);
+            }
+        }
+    }
+}

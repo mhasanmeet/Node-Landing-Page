@@ -1,0 +1,63 @@
+.main{
+    .container{
+
+        .contact{
+            margin-top: 5rem;
+            display: flex;
+
+            .abstract{
+                flex: 1;
+                width: 35rem;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            form{
+                flex: 1;
+                padding: 2rem;
+
+                h3{
+                    font-size: 3rem;
+                }
+
+                .subject{
+                    margin-top: 2rem;
+                }
+
+                .message{
+                    margin-top: 2rem;
+                }
+
+                input{
+                    margin-top: 1rem;
+                    width: 80%;
+                    padding: 1rem 1.5rem;
+                    font-size: 1.5rem;
+                    border-radius: .5rem;
+                    border: .2rem solid var(--color-teal);
+                }
+
+                textarea{
+                    margin-top: 1rem;
+                    padding: 1rem;
+                    font-size: 1.5rem;
+                    border-radius: .5rem;
+                    border: .2rem solid var(--color-teal);
+                }
+
+                button{
+                    margin-top: 2rem;
+                    font-size: 2rem;
+                    padding: .5rem 3rem;
+                    border-radius: .5rem;
+                    border: .2rem solid var(--color-teal);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

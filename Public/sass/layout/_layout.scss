@@ -1,0 +1,12 @@
+@use '../mediaqueries' as media;
+
+// LAYOUT
+.container{
+    max-width: 1400px;
+    // margin-left: 1.5rem;
+    // margin-right: 1.5rem;
+
+    @include media.breakpoints-up(large){
+        margin-inline: auto;
+    }
+}

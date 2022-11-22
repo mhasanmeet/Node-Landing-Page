@@ -1,0 +1,32 @@
+<!-- html head -->
+<%- include('../partials/html-header.ejs')%>
+    
+    <main class="main">
+        <div class="container">
+
+            <!-- nav Content -->
+            <%- include('../partials/navbar.ejs')%>
+
+            <div class="contact">
+                <div class="abstract">
+                    <img src="https://source.unsplash.com/NTYYL9Eb9y8" alt="">
+                </div>
+
+                <form action="#">
+                    <h3>Your Name</h3>
+                    <input type="text">
+
+                    <h3 class="subject">Subject</h3>
+                    <input type="text">
+
+                    <h3 class="message">Message</h3>
+                    <textarea id="" cols="50" rows="20"></textarea>
+
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+<!-- footer Content -->
+<%- include('../partials/html-footer.ejs')%>

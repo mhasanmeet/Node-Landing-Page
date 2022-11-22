@@ -37,6 +37,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   transition: 0.5s;
+  min-height: 100vh;
 }
 
 h1, h2, h3 {
@@ -51,6 +52,171 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+}
+@media (min-width: 36.06em) {
+  .container {
+    margin-inline: auto;
+  }
+}
+
+.main .container {
+  margin: 2rem auto;
+}
+.main .nav {
+  display: flex;
+  justify-content: space-between;
+}
+.main .nav .brand h1 {
+  font-size: 2.2em;
+  color: var(--color-teal);
+}
+.main .nav .navItems {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.main .nav .navItems a {
+  font-size: 1.2rem;
+  color: var(--color-text);
+}
+.main .nav a {
+  border: none;
+  cursor: pointer;
+}
+.main .nav a button {
+  cursor: pointer;
+  color: var(--color-text);
+  font-size: 1.2rem;
+  padding: 0.4rem 1rem;
+  width: fit-content;
+  background-color: var(--color-teal);
+  border-radius: 0.5rem;
+}
+.main .header {
+  margin-top: 15rem;
+}
+.main .header p {
+  width: 40%;
+  font-size: 1rem;
+  line-height: 2;
+}
+.main .header .headerBottom {
+  margin-top: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .header .headerBottom h1 {
+  font-size: 5rem;
+}
+.main .header .headerBottom .cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .header .headerBottom .cta img {
+  background-color: var(--color-teal);
+  padding: 2rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 0.5rem solid hsl(180deg, 100%, 24%);
+  transform: rotate(320deg);
+}
+.main .header .headerBottom .cta p {
+  margin-top: 1.5rem;
+  text-align: center;
+  width: 8rem;
+  font-size: 1.2rem;
+}
+
+.main .container .about {
+  margin-top: 8rem;
+  width: 80%;
+  margin-inline: auto;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+.main .container .about .team {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-around;
+}
+.main .container .about .team .person img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: 0.4rem solid var(--color-teal);
+}
+.main .container .about .team .person p {
+  margin-top: 0.5rem;
+}
+
+.main .container .contact {
+  margin-top: 5rem;
+  display: flex;
+}
+.main .container .contact .abstract {
+  flex: 1;
+  width: 35rem;
+}
+.main .container .contact .abstract img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main .container .contact form {
+  flex: 1;
+  padding: 2rem;
+}
+.main .container .contact form h3 {
+  font-size: 3rem;
+}
+.main .container .contact form .subject {
+  margin-top: 2rem;
+}
+.main .container .contact form .message {
+  margin-top: 2rem;
+}
+.main .container .contact form input {
+  margin-top: 1rem;
+  width: 80%;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--color-teal);
+}
+.main .container .contact form textarea {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--color-teal);
+}
+.main .container .contact form button {
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 0.5rem 3rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--color-teal);
+  cursor: pointer;
+}
+
+.main .container {
+  margin: 2rem auto;
+}
+.main .container .notfound {
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 8rem;
+}
+.main .container .notfound h1 {
+  color: var(--color-teal);
 }
 
 /*# sourceMappingURL=main.css.map */
